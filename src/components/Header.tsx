@@ -1,4 +1,4 @@
-import headerImage from "../assets/garelly/man.png";
+import headerImage from "../assets/garelly/pysioEliezel.png";
 import NavBar from "./NavBar";
 
 interface HeaderProps {
@@ -13,7 +13,10 @@ const Header: React.FC<HeaderProps> = () => {
       <img
         src={headerImage}
         alt="pysioEliezel"
-        className=" absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+        className="object-cover 
+            h-full w-full 
+            md:w-3/4 lg:w-1/3 lg:h-auto 
+            lg:absolute lg:top-0 lg:right-0 "
       />
     </>
   );

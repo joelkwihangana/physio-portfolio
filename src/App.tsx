@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <>
       {/* Main Container */}
-      <div className="relative min-h-screen bg-gradient-to-t from-primary dark:from-slate-800 dark:to-slate-900 overflow-hidden">
+      <div className="relative h-1/2  lg:h-screen bg-gradient-to-t from-primary">
         <Header
           title="PhysioEliezel"
           subtitle="Helping you recover and thrive"
