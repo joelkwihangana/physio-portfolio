@@ -7,13 +7,8 @@ const App: React.FC = () => {
   return (
     <>
       {/* Main Container */}
-      <div className="relative h-1/2  lg:h-screen bg-gradient-to-t from-primary">
-        <Header
-          title="PhysioEliezel"
-          subtitle="Helping you recover and thrive"
-        />
-        <MainComponent />
-      </div>
+      <Header title="PhysioEliezel" subtitle="Helping you recover and thrive" />
+      <MainComponent />
     </>
   );
 };

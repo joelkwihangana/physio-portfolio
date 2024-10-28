@@ -13,6 +13,9 @@ export default {
         background: "#F9FAFB", // Gray 50
         text: "#1F2937", // Gray 800
       },
+      spacing: {
+        big: "40rem",
+      },
     },
   },
   plugins: [],
